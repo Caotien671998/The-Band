@@ -1,0 +1,56 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em){
+    #header {
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav >li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #content .member-items {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    #content .member-img {
+        width: 60%;
+        margin-top: 30px;
+        border-radius: 4px;
+    }
+    .col-third{
+        width: 100%;
+    }
+    .col-half{
+        margin-top: 8px;
+        width: 100%;
+    }
+     /* .row-submit{
+        float: left;
+    } */
+} 
+
+/* Tablet: width >= 740px  and width < 1024px*/
+@media only screen and (min-width: 740px) and (max-width: 1023px){
+    .mobile-menu-btn{
+        display: none;
+    }
+}
+
+/* PC: width > 1024px */
+@media only screen and (min-width: 1024px){
+    .mobile-menu-btn{
+        display: none;
+    }
+    #nav {
+        display: inline-block;
+    }
+}
+    
